@@ -308,6 +308,7 @@ function mapproperties(f, obj)
     nt = getproperties(obj)
     patch = mapproperties(f, nt)
     return setproperties(obj, patch)
+end
 
 # Don't construct when we don't absolutely have to.
 # `constructorof` may not be defined for an object.
